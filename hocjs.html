@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write ("hello world")
+        document.write ("heyyy")
+
+        const fullname = "do thanh son"
+
+        
+        let firstnum = 3;
+        secondnum = 6;
+        document.write (firstnum + secondnum)
+        
+        document.write (firstnum/secondnum)
+
+        let object = {
+            nickname: "sonthanh",
+            age :18 ,
+            hobby: "singing",
+        }
+        document.write (object.nickname)
+        document.write (object.hobby)
+
+        let intro = "bắt đầu học javascript"
+        document.write (intro.length)
+        document.write (intro.includes("học"))
+
+        var xehoi = new Array (4)
+        xehoi [1] = "bugatti"
+        xehoi [2] = "ford"
+        xehoi [3] = "lamborghini"
+        xehoi [4] = "porsche"
+        
+// phần tử đầu trong console là empty do start từ 1
+// 4 là độ dài của mảng 
+        console.log (xehoi)
+
+        var foo = [];
+    console.log(foo.length) // 0
+
+    var number = [1, 2, 3];
+    number[9] = 9;
+    number[-3] = "số âm";
+    number['string'] = 'String';
+    console.log(number.length); // 10
+    console.log(number); // [ 1, 2, 3, empty * 6, 9, '-3': 'so am', string: 'String']
+    
+        var num =10;
+        if (num == 10) {
+            console.log ("bao lau ban duoc 1 ti goi me")
+        }
+        else {
+            document.write ("10 diem")
+        }
+    //chú ý lệnh if..else if..else
+    
+        function searchweb() {
+        console.log("https://codelearn.io/");
+}
+
+        function printtoX(n) {
+            for (i = 1; i <= n; i++)
+            console.log (i)
+        }
+        printtoX(6)
+
+        
+
+//nâng cao: FRONTEND: tìm hiểu DOM manipulation, event, callback, AJAX call, json
+//NODE JS: require, async io, node package, npm, promise 
+    </script>
+</body>
+</html>
